@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{ 
+    char i;
+    char j;
+    
+    printf("enter x\n");
+   for(i=65;i<=67;i++)
+   {
+    for(j=65;j<=i;j++)
+    { 
+        printf("%c",i);
+        
+    }
+    printf("\n");
+   }
+   }
