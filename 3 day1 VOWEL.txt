@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{ 
+    char alpha;
+    //char grade;
+    printf("enter  alpha\n");
+    scanf("%c",&alpha);
+    
+if(alpha=='a'||alpha=='e'||alpha=='i'||alpha=='o'||alpha=='u')
+
+    { 
+        //allow=1700;
+        //ts=hra+da+bs+allow-pf;
+        printf("alpha is vowel");
+        }
+
+        else 
+        printf("alpha is consonent");
+
+    }
