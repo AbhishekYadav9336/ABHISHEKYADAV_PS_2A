@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{ 
+    char k,i;
+    char j;
+    
+    printf("enter x\n");
+   for(i=69;i>=65;i--)
+   { 
+    k=i;
+    for(j=i;j<=69;j++)
+    { 
+        printf("%c",k);
+        ++k;
+    }
+    printf("\n");
+   }
+   }
